@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="application/javascript" src="Plotter.js"></script>
+    <script type="application/javascript" src="Parser.js"></script>
+
+</head>
+
+<body onload="onLoad()" oncontextmenu="return false;">
+    <div id="inputBox">
+        <form name="input" id="input" onsubmit="onSubmit(); return false;">
+            <i>f</i>(<i>x</i>) =  <input type="text" name="f" id="f" value = "3.7x(1-x)">
+            <input type="button" value="Plot" onclick="onSubmit()">
+        </form>
+    </div>
+
+    <canvas id="canvas" width="800" height="500" background="yellow">
+      
+
+</body>
+</html>
